@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="list-container">
     <el-button type="primary" round @click="jumpToPage('/iconShine')">发光的图标</el-button>
 
 
@@ -18,4 +18,8 @@
 </script>
 
 <style scoped>
+  .list-container{
+    width: 1200px;
+    margin: 100px auto;
+  }
 </style>
